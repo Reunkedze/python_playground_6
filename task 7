@@ -1,0 +1,10 @@
+def has_duplicates(s):
+    signs = []
+    condition = False
+    for i in s:
+        if i in signs:
+            condition = True
+            break
+        else:
+            signs.append(i)
+    return condition
