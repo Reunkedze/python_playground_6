@@ -3,5 +3,3 @@ def cumsum(t):
     for n, i in enumerate(t):
         cumlist.append(sum(t[:n + 1]))
     return(cumlist)
-
-print(cumsum([1, 1, 1, 1, 1, 1]))
