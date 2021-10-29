@@ -3,5 +3,3 @@ def nested_sum(t):
     for i in t:
         total += sum(i)
     return(total)
-
-print(nested_sum([[1, 4, 8], [5, 2, 3]]))
